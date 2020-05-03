@@ -1,0 +1,32 @@
+main()
+{
+  i = 0 ;
+  while (i <= 10)
+  {
+    write(f(i)) ;
+    i = i + 1 ;
+  }
+}
+
+f(i)
+{
+  if (i <= 1) 
+     return (i) ;
+  else  
+  {
+     r = 0 ;
+     j = 1 ;
+     while (j <= i - 1)
+     { 
+       r = r + f(j) + f(i - j) ;
+       if (r > 12345) r = r - 12345 ;
+       j = j + 1 ;
+     }
+     return (r) ;
+  }
+}      
+
+
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/compiler/Compiler.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/lexical/Lexer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/lexical/Token.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/ArithmeticExpression.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/Constant.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/IfStatement.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/IndirectionTable.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/Instruction.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/Literal.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/LiteralFactory.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/LmaGenerator.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/LmaInstruction.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/MethodDeclaration.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/ObjectCall.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/Program.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/slip/SimpleCall.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/AugmentedGrammar.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/BNFGrammarParser.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/Grammar.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/LL1Parser.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/LLGrammarChecker.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/ParseTree.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/syntax/Rule.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/fact.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/factRec.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/mytest.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/p02.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/p04.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/stack.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/testSLIP/testSuper.lma" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/translator/SLIPGenerator.java" charset="windows-1252" />
+  </component>
+</project>

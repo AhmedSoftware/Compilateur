@@ -1,0 +1,46 @@
+main()
+{
+	x = new#4;
+	x.1 = 1;
+	x.2 = 1;
+	x.3 = 1;
+	x.4 = 1;
+	
+	while(val(val(x.1) + val(x.2), val(x.3) + val(x.4) ) == val(val(x.4) + val(x.2), val(x.3) + val(x.2)))
+	{
+		while (val(x.1+x.2,x.3+x.4) == val(x.4+x.3,x.2+x.2))
+		{
+			write(1);
+			z = x.disturb();
+		}
+	}
+}
+	
+disturb#4()
+{
+	x = this;
+	x.1 = x.1*2;
+	write(x.1);
+	x.2 = x.2*3;
+	write(x.2);
+	x.3 = x.3*4;
+	write(x.3);
+	x.4 = x.4*5;
+	write(x.4);
+}
+
+
+val(x)
+{
+	return(x);
+}
+
+val(x,y)
+{
+	return (x+y);
+}
+
+val(x,y,z,a)
+{
+	return (x+y+z+a);
+}

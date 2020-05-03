@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ef1c48d-94bd-4600-89ea-ed73f12135b2" name="Default" comment="initialisation d'un projet compilateur">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/compiler/Compiler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/compiler/InvalidProgramException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/Constant.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/Identifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/Lexer$Peeker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/Lexer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/ReservedWord.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/SpecialChar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/lexical/Token.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractAssignment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractCall.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractCommand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractComplexExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractDescriptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractIdentifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/AbstractSimpleExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/ArithmeticExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/Comment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/Constant.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/IfStatement.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/IndirectionTable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/InputCommand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/Instruction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/IntExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/Literal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/LiteralFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/LmaGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/LmaInstruction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/MethodDeclaration.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/NewAssignment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/NullExpression.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/ObjectCall.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/ObjectDescriptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/ObjectIdentifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/OutputCommand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/Program.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/SimpleAssignment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/SimpleCall.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/SimpleDescriptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/SuperCall.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/ThisIdentifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/slip/VarIdentifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/AugmentedGrammar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/BNFGrammarParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/Grammar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/LL1Parser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/LLGrammarChecker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/NonTerminal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/ParseTree.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/Rule.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/Symbol.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/Terminal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/translator/SLIPGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compilateur.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.mf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/grammar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/syntax/result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/DonnesdeTest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/binTree.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/binTree.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/binTree.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/fact.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/fact.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/fact.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/factMain.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/factMain.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/factMain.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/factRec.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/factRec.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/factRec.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/mytest.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/mytest.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/mytest.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p01.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p01.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p01.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p02.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p02.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p02.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p03.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p03.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p03.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p04.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p04.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/p04.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/stack.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/stack.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/stack.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/testLevel.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/testLevel.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/testLevel.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/testSuper.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/testSuper.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/compilateur/testSLIP/testSuper.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/compiler/Compiler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/compiler/InvalidProgramException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lexical/Constant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lexical/Identifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lexical/Lexer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lexical/ReservedWord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lexical/SpecialChar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lexical/Token.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractAssignment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractCall.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractComplexExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractIdentifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/AbstractSimpleExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/ArithmeticExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/Constant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/IfStatement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/IndirectionTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/InputCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/Instruction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/IntExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/Literal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/LiteralFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/LmaGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/LmaInstruction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/MethodDeclaration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/NewAssignment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/NullExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/ObjectCall.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/ObjectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/ObjectIdentifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/OutputCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/Program.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/SimpleAssignment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/SimpleCall.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/SimpleDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/SuperCall.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/ThisIdentifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/slip/VarIdentifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/AugmentedGrammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/BNFGrammarParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/Grammar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/LL1Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/LLGrammarChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/NonTerminal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/ParseTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/Rule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/Symbol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/Terminal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/grammar.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/syntax/result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/DonnesdeTest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/binTree.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/binTree.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/binTree.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/fact.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/fact.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/fact.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/factMain.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/factMain.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/factMain.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/factRec.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/factRec.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/factRec.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/mytest.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/mytest.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/mytest.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p01.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p01.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p01.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p02.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p02.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p02.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p03.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p03.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p03.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p04.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p04.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/p04.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/stack.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/stack.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/stack.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/testLevel.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/testLevel.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/testLevel.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/testSuper.int" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/testSuper.lma" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testSLIP/testSuper.slip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/translator/SLIPGenerator.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IfStatement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slip/IfStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p04.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/p04.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fact.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/fact.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p02.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/p02.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArithmeticExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slip/ArithmeticExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stack.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/stack.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testSuper.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/testSuper.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factRec.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/factRec.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mytest.lma" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testSLIP/mytest.lma">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Literal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/slip/Literal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>syntax\grammar.txt</find>
+      <find>main</find>
+      <find>ERREUR DE SYNTAXE</find>
+      <find>parseTable</find>
+      <find>public</find>
+      <find>LEXP</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/lexical/Lexer.java" />
+        <option value="$PROJECT_DIR$/src/manifest.mf" />
+        <option value="$PROJECT_DIR$/src/compilateur/compiler/Compiler.java" />
+        <option value="$PROJECT_DIR$/manifest.mf" />
+        <option value="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/LinkedList.class" />
+        <option value="$PROJECT_DIR$/src/syntax/ParseTree.java" />
+        <option value="$PROJECT_DIR$/src/syntax/LL1Parser.java" />
+        <option value="$PROJECT_DIR$/src/readme.txt" />
+        <option value="$PROJECT_DIR$/src/testSLIP/bintree.lma" />
+        <option value="$PROJECT_DIR$/src/syntax/grammar.txt" />
+        <option value="$PROJECT_DIR$/src/syntax/Rule.java" />
+        <option value="$PROJECT_DIR$/src/syntax/AugmentedGrammar.java" />
+        <option value="$PROJECT_DIR$/src/syntax/Grammar.java" />
+        <option value="$PROJECT_DIR$/src/slip/Program.java" />
+        <option value="$PROJECT_DIR$/src/slip/Instruction.java" />
+        <option value="$PROJECT_DIR$/src/translator/SLIPGenerator.java" />
+        <option value="$PROJECT_DIR$/src/testSLIP/testLevel.slip" />
+        <option value="$PROJECT_DIR$/src/slip/MethodDeclaration.java" />
+        <option value="$PROJECT_DIR$/src/testSLIP/binTree.slip" />
+        <option value="$PROJECT_DIR$/src/compiler/Compiler.java" />
+        <option value="$PROJECT_DIR$/src/testSLIP/p01.slip" />
+        <option value="$PROJECT_DIR$/src/testSLIP/binTree.java" />
+        <option value="$PROJECT_DIR$/src/lexical/Token.java" />
+        <option value="$PROJECT_DIR$/src/slip/Constant.java" />
+        <option value="$PROJECT_DIR$/src/slip/IndirectionTable.java" />
+        <option value="$PROJECT_DIR$/src/slip/LiteralFactory.java" />
+        <option value="$PROJECT_DIR$/src/slip/LmaGenerator.java" />
+        <option value="$PROJECT_DIR$/src/slip/LmaInstruction.java" />
+        <option value="$PROJECT_DIR$/src/slip/ObjectCall.java" />
+        <option value="$PROJECT_DIR$/src/slip/SimpleCall.java" />
+        <option value="$PROJECT_DIR$/src/syntax/BNFGrammarParser.java" />
+        <option value="$PROJECT_DIR$/src/syntax/LLGrammarChecker.java" />
+        <option value="$PROJECT_DIR$/src/slip/IfStatement.java" />
+        <option value="$PROJECT_DIR$/src/testSLIP/p04.lma" />
+        <option value="$PROJECT_DIR$/src/testSLIP/fact.lma" />
+        <option value="$PROJECT_DIR$/src/testSLIP/p02.lma" />
+        <option value="$PROJECT_DIR$/src/slip/ArithmeticExpression.java" />
+        <option value="$PROJECT_DIR$/src/testSLIP/stack.lma" />
+        <option value="$PROJECT_DIR$/src/testSLIP/testSuper.lma" />
+        <option value="$PROJECT_DIR$/src/testSLIP/factRec.lma" />
+        <option value="$PROJECT_DIR$/src/testSLIP/mytest.lma" />
+        <option value="$PROJECT_DIR$/src/slip/Literal.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="313" />
+    <option name="y" value="54" />
+    <option name="width" value="1607" />
+    <option name="height" value="987" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="compilateur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilateur" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compilateur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilateur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="compilateur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="compilateur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testSLIP" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Compiler">
+    <configuration name="Compiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="compilateur.compiler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="compilateur.compiler.Compiler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="compilateur" />
+      <envs />
+    </configuration>
+    <configuration name="Compiler" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="compiler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="compiler.Compiler" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/testSLIP/binTree.slip" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="compilateur" />
+      <envs />
+    </configuration>
+    <configuration name="LLGrammarChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="syntax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="syntax.LLGrammarChecker" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/src/Main.java" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="compilateur" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Compiler" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LLGrammarChecker" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.LLGrammarChecker" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Compiler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ef1c48d-94bd-4600-89ea-ed73f12135b2" name="Default" comment="" />
+      <created>1588431984994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588431984994</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="313" y="54" width="1607" height="987" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25990677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2530429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialisation d'un projet compilateur" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialisation d'un projet compilateur" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/slip/AbstractIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/AbstractNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/IndirectionTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1375718390000" expanded="true" signature="167:173" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/InputCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/Instruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/IntExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/LiteralFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/AbstractSimpleExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/LmaGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1375718390000" expanded="true" signature="83:105" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/LmaInstruction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/MethodDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/NewAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/NullExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/ObjectCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/ObjectIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/SimpleAssignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/SimpleDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/ThisIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/VarIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/SuperCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/SimpleCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/OutputCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/AugmentedGrammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/LL1Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/LLGrammarChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/NonTerminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/grammar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/ParseTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/Symbol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/Terminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/Grammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/syntax/BNFGrammarParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/ObjectDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/translator/SLIPGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11746">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1375718390000" expanded="true" signature="154:188" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilateur.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/IfStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/p04.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/fact.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/p02.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/ArithmeticExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/stack.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/testSuper.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/factRec.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testSLIP/mytest.lma">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slip/Literal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

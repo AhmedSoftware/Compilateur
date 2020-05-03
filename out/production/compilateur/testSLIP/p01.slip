@@ -1,0 +1,22 @@
+main(){
+  
+    read(x);
+
+    while (x != -10000) 
+    {
+
+      S = x ; Sd = x ; read(x) ;
+
+      while (x != -10000) 
+      {
+        if (Sd >= 0) Sd = Sd + x ; else Sd = x  ;
+        if (Sd >  S) S  = Sd ;
+        read(x) ;
+      }
+ 
+      write(S) ; read(x) ;
+
+
+    }
+}
+

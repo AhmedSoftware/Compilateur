@@ -1,0 +1,15 @@
+f91(x)
+{
+  if (x > 100)
+     return (x - 10) ;
+  else return(f91(f91(x + 11))) ;
+}
+
+main()
+{
+  z = 105 ;
+  i = 1 ;
+
+  while (z > -10000) 
+  { write(f91(z)) ; z = z - i ; i = i * 2 ; }
+}

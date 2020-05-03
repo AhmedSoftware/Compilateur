@@ -1,0 +1,26 @@
+main()
+{
+  read(x);
+
+  while (x != -2)  
+  {
+    n = 1 ;
+    while (x != -1) 
+    {
+       if(n == 0)
+         x = -1;
+       else
+         n = n + x - 1 ; read(x) ;
+    }
+ 
+    if (x == -1)
+    {
+    	if (n==0) 
+       		write(1) ;
+    }
+    else 
+       { while (x != -1) read(x) ; write(-1) ; }
+
+    read(x) ;
+  }
+}

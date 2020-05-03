@@ -1,0 +1,104 @@
+Programme p01
+-------------
+IN: -12
+IN:  5
+IN: -3
+IN: 4
+IN: 0
+IN:  -14
+IN:  -10000
+OUT:6
+IN:  -12
+IN:  5
+IN:  -3         
+IN:  4
+IN:  0
+IN: -14
+IN: -10000
+OUT:6
+IN: 5
+IN: -10000
+OUT:5
+IN: -5
+IN: -1
+IN: -7
+IN: -47
+IN: -10000
+OUT:-1
+IN: -10000
+STOP
+
+Programme p02
+-------------
+OUT:0
+OUT:1
+OUT:2
+OUT:6
+OUT:18
+OUT:54
+OUT:162
+OUT:486
+OUT:1458
+OUT:4374
+OUT:777
+STOP
+
+Programme p03
+-------------
+IN: 0
+IN: -1
+OUT:1
+IN: -1
+OUT:-1
+IN: 6
+IN: 1
+IN: 0
+IN: 0
+IN: 0
+IN: 2
+IN: 0
+IN: 0
+IN: 0
+IN: 0
+IN: -1
+OUT:1 
+IN: 6
+IN: 5
+IN: 4
+IN: 3
+IN: 2
+IN: 1
+IN: 0
+IN: -1
+OUT:-1 
+IN: 3
+IN: 0
+IN: 0
+IN: 0
+IN: 1
+IN: -1
+OUT:-1
+IN: -2
+STOP
+
+Programme p04
+-------------
+OUT:95
+OUT:94
+OUT:93
+OUT:92
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+OUT:91
+STOP
+
+
+

@@ -1,0 +1,51 @@
+<P>
+'lambda'
+
+# Programme
+<P> ::= <MET> <P-T>
+<P-T> ::= 'lambda' | <MET> <P-T>
+<MET> ::= <FULLNAME> '(' <PL> ')' <BODY>
+<FULLNAME> ::= 'identifier' <FULLNAME-S>
+<FULLNAME-S> ::= 'lambda' | '#' 'cst'
+<PL> ::= 'lambda' | <NEPL>
+<NEPL> ::= 'identifier' <NEPL-T>
+<NEPL-T> ::= ',' 'identifier' <NEPL-T> | 'lambda'
+<BODY> ::= <CMDSEQ>
+
+# Commands
+<CMD> ::= <ASS> | <CONDCMD> | <LOOPCMD> | <CMDSEQ> | <INCMD> | <OUTCMD> | <RTNCMD>
+<ASS> ::= <LEXP> '=' <EXP> ';'
+<CONDCMD> ::= 'if' <COND> <CMD> <CONDCMD-S>
+<CONDCMD-S> ::= 'lambda' | 'else' <CMD>
+<LOOPCMD> ::= 'while' <COND> <CMD>
+<CMDSEQ> ::= '{' <CMDLIST> '}'
+<CMDLIST> ::= 'lambda' | <CMD> <CMDLIST>
+<INCMD> ::= 'read' '(' <LEXPLST> ')' ';'
+<OUTCMD> ::= 'write' '(' <REXPLST> ')' ';'
+<RTNCMD> ::= 'return' '(' <EXP> ')' ';'
+
+# Condition
+<COND> ::= '(' <REL> ')'
+<REL> ::= <EXP> <CO> <EXP>
+<CO> ::= '==' | '!=' | '<' | '>' | '<=' | '>='
+
+# Expression
+<VAR> ::= 'identifier'
+<LEXP> ::= <VAR> <LEXP-S>
+<LEXP-S> ::= 'lambda' | '.' 'cst'
+<EXP> ::= <T> <EXP-T> | '-' <T> <EXP-T>
+<EXP-T> ::= <AO> <T> <EXP-T> | 'lambda'
+<AO> ::= '+' | '-'
+<T> ::= <F> <T-T>
+<T-T> ::= <MO> <F> <T-T> | 'lambda'
+<MO> ::= '*' | '/' | '%'
+<F> ::= 'identifier' <IDENT-S> | 'cst' | 'this' | 'null' | 'new' '#' 'cst' | '(' <EXP> ')'  | 'super' '.' 'identifier' '(' <APL> ')'
+<IDENT-S> ::= 'lambda' | '.' <DOT-S> | '(' <APL> ')'
+<DOT-S> ::= 'cst' | 'identifier' '(' <APL> ')'
+<APL> ::= 'lambda' | <REXPLST>
+
+# Listes d'expressions
+<REXPLST> ::= <EXP> <REXPLST-T>
+<REXPLST-T> ::= ',' <EXP> <REXPLST-T> | 'lambda'
+<LEXPLST> ::= <LEXP> <LEXPLST-T>
+<LEXPLST-T> ::= ',' <LEXP> <LEXPLST-T> | 'lambda'
